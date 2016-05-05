@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    background: url('images/BambooBackground.jpeg');
+    background-size: 800px 800px;
+    background-repeat:no-repeatdisplay: compact;
+  }
+h2 {
+ color: yellow;
+ text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+.jumbotron h1 {
+ color: orange;
+ text-shadow:
+-1px -1px 0 #000,
+1px -1px 0 #000,
+-1px 1px 0 #000,
+1px 1px 0 #000;
+}
+
+ .jumbotron {
+    background: url('images/leaves.jpg');
+  }
+  .appleQuantity {
+    color: peachpuff;
+    text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+  }
+  .orangeQuantity {
+    color: peachpuff;
+    text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+  }
+  .bananaQuantity {
+    color: peachpuff;
+    text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+  }
+  .pearQuantity {
+    color: peachpuff;
+    text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
+  }
+  .applePrice {
+    color: green;
+    font-size: 150%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+  .orangePrice {
+    color: green;
+    font-size: 150%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+  .bananaPrice {
+    color: green;
+    font-size: 150%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+  .pearPrice {
+    color: green;
+    font-size: 150%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+
+  .appleLive {
+    color: green;
+    font-size:200%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+  .orangeLive {
+    color: green;
+    font-size: 200%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+  .bananaLive {
+    color: green;
+    font-size: 200%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }
+  .pearLive {
+    color: green;
+    font-size: 200%;
+    text-shadow:
+   -1px -1px 0 #ffffff ,
+   1px -1px 0 #ffffff ,
+   -1px 1px 0 #ffffff ,
+   1px 1px 0 #ffffff ;
+  }

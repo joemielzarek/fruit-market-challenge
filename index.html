@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <script src='jquery-1.12.3.min.js' ></script>
-    <script src='fruitmarket.js' ></script>
-  </head>
-  <body>
+<head>
+<link rel="stylesheet" href="bootstrap.min.css" />
+<link rel="stylesheet" href="stylesheet.css" />
+<script type="text/javascript" src="jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="fruitmarket.js"></script>
+</head>
+<body>
+ <div class="container">
+   <div class="row">
+     <div class="jumbotron text-center">
+       <h1>The Fruit Market</h1>
+       <div class="totalCash">
+         <h2>Total Cash: $100 </h2>
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-md-3">
+         <h2>Apples</h2>
+         <img src="images/apple.png" alt="Apple image" style="width:150px;height:150px;">
+         <div class="apples">
+           <div class="appleBuy">
+             <button class="btn btn-success" id="buyApples">Purchase</button>
+             <button class="btn btn-danger" id="sellApples">Sell</button>
+           </div>
+           <div class="appleQuantity">
+             <h4>Qty: X</h4>
+           </div>
+           <div class="applePrice">
+             <h4>$X.XX </h4>
+           </div>
+           <div class="appleLive"></div>
+         </div>
+     </div>
+     <div class="row">
+       <div class="col-md-3">
+         <h2>Oranges</h2>
+         <img src="images/orange.png" alt="Orange image" style="width:150px;height:150px;">
+         <div class="oranges">
+           <div class="orangeBuy">
+             <button class="btn btn-success" id="buyOranges">Purchase</button>
+             <button class="btn btn-danger" id="sellOranges">Sell</button>
+           </div>
+           <div class="orangeQuantity">
+             <h4>Qty: </h4>
+           </div>
+           <div class="orangePrice">
+             <h4>$X.XX </h4>
+           </div>
+           <div class="orangeLive"></div>
+         </div>
+     </div>
+     <div class="row">
+       <div class="col-md-3">
+         <h2>Bananas</h2>
+         <img src="images/bananas.png" alt="Banana image" style="width:150px;height:150px;">
+         <div class="bananas">
+           <div class="bananaBuy">
+             <button class="btn btn-success" id="buyBananas">Purchase</button>
+             <button class="btn btn-danger" id="sellBananas">Sell</button>
+           </div>
+           <div class="bananaQuantity">
+             <h4>Qty: </h4>
+           </div>
+           <div class="bananaPrice">
+             <h4>$X.XX </h4>
+           </div>
+           <div class="bananaLive"></div>
 
-  </body>
+         </div>
+     </div>
+     <div class="row">
+       <div class="col-md-3">
+         <h2>Pears</h2>
+         <img src="images/pear.png" alt="pear image" style="width:150px;height:150px;">
+         <div class="pears">
+           <div class="pearBuy">
+             <button class="btn btn-success" id="buyPears">Purchase</button>
+             <button class="btn btn-danger" id="sellPears">Sell</button>
+           </div>
+           <div class="pearQuantity">
+             <h4>Qty: </h4>
+           </div>
+           <div class="pearPrice">
+             <h4>$X.XX </h4>
+           </div>
+           <div class="pearLive"></div>
+         </div>
+     </div>
+
+ </div>
+
+</body>
 </html>
+<!-- Cheers -->
